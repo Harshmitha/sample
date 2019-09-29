@@ -1,7 +1,8 @@
-<h1>The Login Page</h1>
-<form [formGroup]="val">
-    <h2> Username:<input type="text" formControlName="name"><br><br>
+<h2>Login Page</h2>
 
-        Password:<input type="password" formControlName="pass"><br></h2>
-    <button (click)="add(val)">login</button>
+<form [formGroup]="val">
+    <input type="text" formControlName="name" placeholder="Username"><br><br>
+    
+    <input type="password" formControlName="pass" placeholder="Password"><br><br>
+    <button (click)="add(val)">Login</button>
 </form>

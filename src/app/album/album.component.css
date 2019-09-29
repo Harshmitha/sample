@@ -1,3 +1,7 @@
 #c{
     color: darkgreen;
+    font-size: 18px;
+}
+h1{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }

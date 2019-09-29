@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+nav:hover{
+    background-color:#FFABAB;  
+}
+nav{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}

@@ -1,13 +1,13 @@
 
 <fieldset>
-    <h1>Create New Task</h1>
+    <h2>Create New Task</h2>
 </fieldset>
 <br>
 <form [formGroup]="newtask">
-    <h3>
-        Userid:<input type="text" formControlName="userid"><br><br>
-        Title:<input type="text" formControlName="title"><br><br>
-        Complted:<input type="text" formControlName="comp"><br><br>
+   
+        <input type="text" formControlName="userid" placeholder="Userid"><br><br>
+        <input type="text" formControlName="title" placeholder="Title"><br><br>
+       <input type="text" formControlName="comp" placeholder=" Completed"><br><br>
         <button (click)="add(newtask)">Add</button>
-    </h3>
+   
 </form>
