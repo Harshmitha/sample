@@ -1,6 +1,6 @@
 <h1>Tasks</h1>
 <hr color="red">
-<p>Search <input type="text" [(ngModel)]="searchdata" placeholder="search">
+<p>Search <input type="text" placeholder="search">
     &nbsp;<button (click)="create()"> Create
         new task</button> </p>
 <table>
@@ -10,7 +10,7 @@
         <th>Title</th>
         <!-- <th>Completed</th> -->
     </tr>
-    <tr *ngFor='let data of datas|filter:searchdata'>
+    <tr *ngFor='let data of datas'>
         <!-- <td>{{data.userId}}</td> -->
         <td>{{data.id}}</td>
         <td>{{data.title}}</td>
